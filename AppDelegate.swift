@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  TicTacToe
+//  Flappy Bird
 //
-//
-//  
+//  Created by Rob Percival on 05/07/2016.
+//  Copyright © 2016 Appfish. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    @nonobjc func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
